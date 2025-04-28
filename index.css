@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(28,28,30);
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 10% 25% 5% 15% 5% 15%;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    min-width: 500px;
+    min-height: 1000px;
+}
+
+.decoration{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-area: 2/3/3/3;
+    background-color: rgb(0,0,0,0.3);
+    border-radius: 15px;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.salve{
+    font-family: "Nunito", sans-serif;
+    color:whitesmoke;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(200, 200, 200, 0.5)
+}
+
+#aquila{
+    height: 50%;
+}
+
+#fodp{
+    font-family: "Nunito", sans-serif;
+    color: rgb(155,155,155);
+    font-size: xx-small;
+    text-align: center;
+}
+
+.mainInfo{
+    width: 100%;
+    grid-area: 4/3/5/3;
+    display: flex;
+    background-color: rgb(0,0,0,0.0);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 100px;
+    min-width: 200px;
+}
+
+.mi{
+    width: 75%;
+    height: 30%;
+    gap: 10px;
+    opacity: 0.1;
+    border-radius: 15px;
+}
+
+.weather{
+    background-color: rgb(90, 160, 130);
+}
+
+.logIn{
+    background-color: rgb(60,100,160);
+}
+
+.location{
+    background-color: rgb(150,40,30);
+}
+
+
+.logInForm{
+    width: 100%;
+    grid-area: 6/3/7/3;
+    display: flex;
+    background-color: rgba(255, 255, 255);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 100px;
+    min-width: 200px;
+}
